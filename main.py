@@ -3,6 +3,7 @@ game = ("rock","paper","scissor")
 score = {"bot": 0,
          "player": 0}
 x = input("do you want to play game:(y/n)")
+print("type 'n' to close the game")
 if x.lower() == "y":
     while True:
       player = input("enter your choice: ")
@@ -58,6 +59,7 @@ if x.lower() == "y":
         print("choice not avilable")
 elif x.lower() == "n":
   print("have a nice day")
+
 
 
 
